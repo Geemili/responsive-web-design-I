@@ -1,5 +1,7 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* Style navbar */
+
 nav {
     width: 100%;
     text-align: center;
@@ -9,4 +11,14 @@ nav {
 
 .logo-link {
     order: -1;
+}
+
+.link {
+    border-bottom: 1px solid black;
+    padding: 5vh 0 5vh;
+}
+
+.link a {
+    color: grey;
+    text-decoration: none;
 }
