@@ -101,3 +101,9 @@ header img {
 hr {
     border: 1px solid black;
 }
+
+/* Style footer */
+
+#copyright {
+    text-align: center;
+}
