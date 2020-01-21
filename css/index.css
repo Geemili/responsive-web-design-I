@@ -60,6 +60,18 @@ nav {
     }
 }
 
+/* Style navbar for desktop */
+@media (min-width: 900px) {
+    nav {
+        align-items: center;
+    }
+
+    .logo-link {
+        width: initial;
+        order: 0;
+    }
+}
+
 /* content width */
 
 .content {
