@@ -95,3 +95,9 @@ header img {
 .group-one-item, .group-two-item {
     padding: 1vh 0;
 }
+
+/* Style lines */
+
+hr {
+    border: 1px solid black;
+}
