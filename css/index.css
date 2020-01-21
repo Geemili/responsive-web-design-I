@@ -206,3 +206,39 @@ hr {
 #copyright {
     text-align: center;
 }
+
+/* Style services gallery */
+
+.services-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-gallery div {
+    width: 100%;
+    padding: 25px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: 1.7vh 0;
+}
+
+.service-link {
+    margin-top: 1em;
+}
+
+.service-link a {
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10%;
+
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.service-link a:hover {
+    background-color: lightgrey;
+}
+
