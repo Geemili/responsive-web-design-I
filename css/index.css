@@ -85,3 +85,13 @@ header img {
     margin: 2vh 0;
 }
 
+
+/* Style group-one and group-two */
+
+#group-one {
+    margin-top: 5vh;
+}
+
+.group-one-item, .group-two-item {
+    padding: 1vh 0;
+}
