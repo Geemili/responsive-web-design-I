@@ -242,3 +242,10 @@ hr {
     background-color: lightgrey;
 }
 
+/*  Style services gallery for tablet */
+@media (min-width: 600px) {
+    .services-gallery div {
+        width: 49%;
+    }
+}
+
