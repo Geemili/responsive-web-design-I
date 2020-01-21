@@ -23,6 +23,7 @@ nav {
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .logo-link {
@@ -37,6 +38,20 @@ nav {
 .link a {
     color: grey;
     text-decoration: none;
+}
+
+@media (min-width: 600px) {
+    nav {
+        flex-flow: row wrap;
+    }
+
+    .logo-link {
+        width: 100vw;
+    }
+
+    .link {
+        border-bottom: none;
+    }
 }
 
 /* content width */
