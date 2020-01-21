@@ -37,7 +37,7 @@ nav {
 
 .link {
     border-bottom: 1px solid black;
-    padding: 5vh 0 5vh;
+    padding: 2vh 0 2vh;
 }
 
 .link a {
@@ -45,6 +45,7 @@ nav {
     text-decoration: none;
 }
 
+/* Style navbar for tablet */
 @media (min-width: 600px) {
     nav {
         flex-flow: row wrap;
