@@ -135,6 +135,22 @@ header img {
     padding: 1vh 0;
 }
 
+/*  Style group-one and group-two for tablet */
+@media (min-width: 600px) {
+    #group-one, #group-two {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .group-one-item {
+        width: 49%;
+    }
+
+    .group-two-item {
+        width: 30%;
+    }
+}
+
 /* Style lines */
 
 hr {
