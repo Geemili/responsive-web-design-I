@@ -1,3 +1,281 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
 
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Style navbar */
+
+nav {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo-link {
+    order: -1;
+}
+
+.link {
+    border-bottom: 1px solid black;
+    padding: 2vh 0 2vh;
+}
+
+.link a {
+    color: grey;
+    text-decoration: none;
+}
+
+/* Style navbar for tablet */
+@media (min-width: 600px) {
+    nav {
+        flex-flow: row wrap;
+    }
+
+    .logo-link {
+        width: 100vw;
+    }
+
+    .link {
+        border-bottom: none;
+    }
+}
+
+/* Style navbar for desktop */
+@media (min-width: 900px) {
+    nav {
+        align-items: center;
+    }
+
+    .logo-link {
+        width: initial;
+        order: 0;
+    }
+}
+
+/* content width */
+
+.content {
+    width: 92vw;
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .content {
+        width: 95vw;
+    }
+}
+
+@media (min-width: 900px) {
+    .content {
+        width: 90vw;
+        max-width: 900px;
+    }
+}
+
+/* Style header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    display: none;
+}
+
+.slogan-section {
+    text-align: center;
+    margin: 5vh 0 10vh;
+}
+
+.slogan-section h1 {
+    font-size: 17vw;
+    text-transform: uppercase;
+}
+
+.slogan-section a {
+    color: black;
+    border: 1px solid grey;
+    padding: 0.5vh 4vw;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5vh;
+    display: inline-block;
+}
+
+/* Style header for tablet */
+@media (min-width: 600px) {
+    .slogan-section {
+        text-align: center;
+        margin: 0vh 0 7vh;
+    }
+
+    .slogan-section h1 {
+        font-size: 7vh;
+    }
+
+    .slogan-section a {
+        margin-top: 0;
+    }
+
+}
+
+/* Style header for desktop */
+@media (min-width: 900px) {
+    header {
+        margin: 5vh 0 10vh;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .slogan-section h1 {
+        font-size: 10vh;
+    }
+
+    header img {
+        display: block;
+    }
+}
+
+/* Style the middle image */
+
+.middle-img {
+    width: 100%;
+    margin: 2vh 0;
+}
+
+
+/* Style group-one and group-two */
+
+#group-one {
+    margin-top: 5vh;
+}
+
+.group-one-item,
+.group-two-item {
+    padding: 1vh 0;
+}
+
+/*  Style group-one and group-two for tablet */
+@media (min-width: 600px) {
+
+    #group-one,
+    #group-two {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .group-one-item {
+        width: 49%;
+    }
+
+    .group-two-item {
+        width: 30%;
+    }
+}
+
+/* Style lines */
+
+hr {
+    border: 1px solid black;
+}
+
+/* Style footer */
+
+#copyright {
+    text-align: center;
+}
+
+
+
+/* Style services header */
+
+header.services {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1vh;
+}
+
+.services-header-img {
+    width: 100%;
+}
+
+
+/* Style services gallery */
+
+.services-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-gallery div {
+    width: 100%;
+    padding: 25px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: 1.7vh 0;
+}
+
+.service-link {
+    margin-top: 1em;
+}
+
+.service-link a {
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10%;
+
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.service-link a:hover {
+    background-color: lightgrey;
+}
+
+.column {
+    width: 100%;
+}
+
+/*  Style services gallery for tablet */
+@media (min-width: 600px) {
+    .services-gallery div {
+        width: 49%;
+    }
+}
+
+/*  Style services some-facts for tablet */
+@media (min-width: 600px) {
+    .some-facts {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 49%;
+    }
+}
