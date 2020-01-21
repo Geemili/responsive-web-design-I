@@ -75,8 +75,14 @@ nav {
 /* content width */
 
 .content {
-    width: 95vw;
+    width: 92vw;
     margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .content {
+        width: 95vw;
+    }
 }
 
 /* Style header */
@@ -149,7 +155,9 @@ header img {
 
 /*  Style group-one and group-two for tablet */
 @media (min-width: 600px) {
-    #group-one, #group-two {
+
+    #group-one,
+    #group-two {
         display: flex;
         justify-content: space-between;
     }
