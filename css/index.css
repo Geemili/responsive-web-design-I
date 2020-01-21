@@ -85,6 +85,12 @@ nav {
     }
 }
 
+@media (min-width: 900px) {
+    .content {
+        width: 90vw;
+    }
+}
+
 /* Style header */
 
 header {
