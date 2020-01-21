@@ -257,6 +257,10 @@ header.services {
     background-color: lightgrey;
 }
 
+.column {
+    width: 100%;
+}
+
 /*  Style services gallery for tablet */
 @media (min-width: 600px) {
     .services-gallery div {
