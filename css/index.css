@@ -249,3 +249,14 @@ hr {
     }
 }
 
+/*  Style services some-facts for tablet */
+@media (min-width: 600px) {
+    .some-facts {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 49%;
+    }
+}
